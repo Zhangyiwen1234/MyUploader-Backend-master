@@ -32,6 +32,7 @@ public class BigFileUploadController {
         } else {
             fileService.upload(name, md5,file);
             System.out.println("123");
+            System.out.println(123);
         }
     }
 }
