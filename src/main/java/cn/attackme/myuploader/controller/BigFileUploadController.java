@@ -31,8 +31,6 @@ public class BigFileUploadController {
             fileService.uploadWithBlock(name, md5,size,chunks,chunk,file);
         } else {
             fileService.upload(name, md5,file);
-            System.out.println("123");
-            System.out.println(123);
         }
     }
 }

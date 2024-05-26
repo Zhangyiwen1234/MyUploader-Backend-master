@@ -24,6 +24,7 @@ public class FileUtils {
         }
         os.flush();
         os.close();
+        System.out.println(123);
     }
 
     /**
